@@ -1,0 +1,58 @@
+﻿@model do_an.Models.Contact
+
+@{
+    ViewData["Title"] = "Edit";
+}
+<div id="contact" class="home-contact">
+
+
+<div class="container">
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form id="request" class="main_form" asp-action="Edit">
+             <div class="row">
+
+                <input type="hidden" asp-for="IdContact" />
+
+                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="form-group col-md-12">
+    <input asp-for="Name" class="contactus" placeholder="Name" type="type" name="Name"/>
+    <span asp-validation-for="Name" class="text-danger"></span>
+</div>
+
+<div class="form-group col-md-12">
+    <input asp-for="PhoneNumber" class="contactus " placeholder="Phone Number" type="type" name="PhoneNumber"/>
+    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+</div>
+
+<div class="form-group col-md-12">
+    <input asp-for="Email" class="contactus " placeholder="Email" type="type" name="Email"/>
+    <span asp-validation-for="Email" class="text-danger"></span>
+</div>
+
+<div class="form-group col-md-12">
+    <input asp-for="Message" class="contactus " placeholder="Message" type="type" name="Message"/>
+    <span asp-validation-for="Message" class="text-danger"></span>
+</div>
+
+<div class="form-group col-md-12">
+    <div class="text-left">
+        <input type="submit" value="Save" class="send_btn" />
+    </div>
+</div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<div>
+    <a asp-action="Index" class="btn btn-primary">Back to List</a>
+</div>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -11622,25 +11622,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/thang/.nuget/packages/": {}
+    "C:\\Users\\khat7\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/thang/CODE/lap-trinh-web/do-an/do_an_ltweb/do_an/do_an/do_an.csproj",
+      "projectUniqueName": "D:\\do_an_ltweb\\db\\da_ltweb\\do_an.csproj",
       "projectName": "do_an",
-      "projectPath": "/Users/thang/CODE/lap-trinh-web/do-an/do_an_ltweb/do_an/do_an/do_an.csproj",
-      "packagesPath": "/Users/thang/.nuget/packages/",
-      "outputPath": "/Users/thang/CODE/lap-trinh-web/do-an/do_an_ltweb/do_an/do_an/obj/",
+      "projectPath": "D:\\do_an_ltweb\\db\\da_ltweb\\do_an.csproj",
+      "packagesPath": "C:\\Users\\khat7\\.nuget\\packages\\",
+      "outputPath": "D:\\do_an_ltweb\\db\\da_ltweb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/thang/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\khat7\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11653,11 +11654,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -11728,7 +11724,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.203/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -23,7 +23,7 @@ builder.Services.AddScoped<ICategoryPrice, EFCategoryPrice>();
 builder.Services.AddScoped<ICategorySex, EFCategorySex>();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DockerConnection")));
+options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServer")));
 
 builder.Services.AddIdentity<User, IdentityRole>(/*options => options.SignIn.RequireConfirmedAccount = true*/)
     .AddEntityFrameworkStores<ApplicationDbContext>()

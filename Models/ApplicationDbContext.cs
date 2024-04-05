@@ -1,4 +1,5 @@
 ﻿using System.Reflection.Metadata;
+using do_an.Models;
 using do_an_ltweb.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -28,7 +29,7 @@ namespace do_an_ltweb.Models
         public DbSet<Feedback> Feedbacks { get; set; }
         //public DbSet<Slider> Sliders { get; set; }
         //public DbSet<About> Abouts { get; set; }
-        //public DbSet<Contact> Contacts { get; set; }
+        public DbSet<Contact> Contacts { get; set; }
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
